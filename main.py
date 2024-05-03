@@ -148,7 +148,7 @@ root.wm_attributes('-transparentcolor', '#ab23ff')
 canvas = tk.Canvas(root, width = 30, height = 20)
 helv36 = tkFont.Font(family="Helvetica",size=36,weight="bold")
 helv20 = tkFont.Font(family="Helvetica",size=20,weight="bold")
-bg = tk.PhotoImage(file=r"background3.png")
+bg = tk.PhotoImage(file=r"background.png")
 label1 = tk.Label( root, image = bg, text='Select photo', fg='white') 
 label1.place(x = 0,y = 0)
 options_list = ["50x50", "100x100", "150x150"] 
